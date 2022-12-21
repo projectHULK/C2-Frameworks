@@ -24,10 +24,13 @@ echo -e "\n${BLUE}╔═════{ Building the Teamserver:${XX}"
 sleep 0.5
 	cd .. && cd Teamserver && go mod download golang.org/x/sys && go mod download github.com/ugorji/go && ./Install.sh && make
 echo -e "\n${GREEN}╔═════{ Installation Completed${XX}"
-echo -e "\n${BLUE}╔═════{ Start Havoc by doing the following:${XX}"
-echo -e "\n${GREEN}    ══{ Start Teamserver: cd Havoc/Teamserver && ./teamserver server --profile ./profiles/havoc.yaotl ${XX}"
-echo -e "\n${GREEN}    ══{ Start Havoc in other terminal: cd Havoc/Client && ./Havoc ${XX}"
-echo -e "\n${GREEN}    ══{ The username and password are set to defualt: 5pider/password1234 ${XX}"
-echo -e "\n${GREEN}    ══{ that can be changed from the config file: Havoc/Teamserver/profiles/havoc_default.yaotl ${XX}"
-
+echo -e "${BLUE}╔═════{ Start Havoc by doing the following:${XX}"
+echo -e "${GREEN}    ══{ Start Teamserver: cd Havoc/Teamserver && ./teamserver server --profile ./profiles/havoc.yaotl ${XX}"
+echo -e "${GREEN}    ══{ Start Havoc in other terminal: cd Havoc/Client && ./Havoc ${XX}"
+echo -e "${GREEN}    ══{ The defualt setting are as follow: 5pider/password1234 ${XX}"
+echo -e "${GREEN}    ══{ User name: 5pider ${XX}"
+echo -e "${GREEN}    ══{ Password: password1234 ${XX}"
+echo -e "${GREEN}    ══{ Host: 0.0.0.0 ${XX}"
+echo -e "${GREEN}    ══{ Port: 40056 ${XX}"
+echo -e "${GREEN}    ══{ that can be changed from the config file: Havoc/Teamserver/profiles/havoc.yaotl ${XX}"
 
