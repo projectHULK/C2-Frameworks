@@ -9,7 +9,7 @@ XX="\033[0m" #--- Close COLOR
 
 echo -e "\n${RED}╔═════{ Run as root user${XX}"
 sleep 0.5
-echo -e "\n${BLUE}╔═════{ Clone the repository:${XX}"
+echo -e "\n${BLUE}╔═════{ Cloning the repository:${XX}"
 	git clone --recurse-submodules https://github.com/cobbr/Covenant
 sleep 0.5
 	cd Covenant/Covenant && dotnet run
