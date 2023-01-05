@@ -14,6 +14,8 @@ echo -e "\n${BLUE}╔═════{ Clone the repository:${XX}"
 sleep 0.5
 	cd Covenant/Covenant && dotnet run
 echo -e "\n${GREEN}╔═════{ Installation Completed${XX}"
+echo -e "\n${BLUE}╔═════{ Run the framework :${XX}"
+echo -e "\n${GREEN}    ══{ dotnet run${XX}"
 echo -e "\n${BLUE}╔═════{ Open the link:${XX}"
 echo -e "\n${GREEN}    ══{ https://127.0.0.1:7443/covenantuser/login${XX}"
 echo -e "\n${BLUE}╔═════{ Read More at:${XX}"
