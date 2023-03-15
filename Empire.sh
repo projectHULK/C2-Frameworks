@@ -15,9 +15,9 @@ echo -e "\n${BLUE}╔═════{ Cloning the repository:${XX}"
 	sudo ./setup/install.sh
 echo -e "\n${GREEN}╔═════{ Installation Completed${XX}"
 echo -e "\n${BLUE}╔═════{ Start Server:${XX}"
-echo -e "\n${GREEN}    ══{ ./ps-empire server${XX}"
+echo -e "\n${GREEN}    ══{ sudo powershell-empire server${XX}"
 echo -e "\n${BLUE}╔═════{ Start Client:${XX}"
-echo -e "\n${GREEN}    ══{ ./ps-empire client${XX}"
+echo -e "\n${GREEN}    ══{ powershell-empire client${XX}"
 echo -e "\n${BLUE}╔═════{ Read More at:${XX}"
 echo -e "\n${GREEN}    ══{ https://github.com/BC-SECURITY/Empire${XX}"
 
